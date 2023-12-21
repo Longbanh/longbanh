@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Góp ý</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .phai{
+         float: right;
+         width: 35%;
+        }
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        header {
+            padding: 30px;
+            background: rgb(68, 0, 255);
+            overflow: hidden;
+        }
+        header img{
+            
+            width: 150px;
+            height: auto;
+            float: center;
+        }
+        header .noidung{
+            float: center;
+            padding-left: 30px;
+        }
+        .search{
+            float: right;
+            line-height: 40px;
+            padding-right: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 20;
+            padding: 20;
+            overflow: hidden;
+            background-color:rgb(0, 183, 255);
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: aqua;
+        }
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .tieude{
+            border-bottom-left-radius: 15px;
+            background-color: black;
+            line-height:40px;
+            color:white;
+            text-align:left;
+            font-variant:small-caps;
+            padding-left: 30px;
+        }
+        .column{   
+            float: left;
+            width: 50%;
+            height: 100px;
+        }
+        .text{
+            padding-left: 12px;
+            font-size: larger;
+            font-weight: bold;
+            float: left;
+            
+        }
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        input{
+            width: 90%;
+            padding: 12px 20px;
+            margin: 8px 16px;
+        }
+        input[type=text]:focus {
+            border: 3px solid #555;
+        }
+        textarea{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+            margin: 8px 16px;
+        }
+        .nut{
+            padding: 12px 20px;
+            margin: 8px 16px;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            width: 125px;
+            float: left;
+        }
+
+        footer{
+            padding-top: 1px;
+            padding-bottom: 1px;
+            line-height:5px;
+            background:lightcyan;
+            text-align: center;
+            font-variant: small-caps;
+            clear: both; 
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+            <img src="image/hong bàng.png" alt="">
+            <div class="noidung">
+                <h2 style="color: white;">NGÀNH GD&ĐT TP HẢI PHÒNG </h2>
+                <h1 style="color: white;">TRƯỜNG THPT Hồng Bàng<h1>
+            </div>
+        </header></center>
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li class="dropdown">
+              <a class="dropbtn" href="gioithieu.html">Giới thiệu</a>
+              <div class="dropdown-content">
+                <a href="cauhoithuongap.html">Câu hỏi thường gặp</a>
+                <a href="cosovatchat.html">Sơ đồ tổ chức</a>
+                <a href="thuvien.html">Thư viện<nav></nav></a>
+              </div>
+            </li>
+            <li><a href="lienhe.html">Liên hệ </a></li>
+            <li><a href="gopy.html">Góp ý</a></li>
+            <li><a href="hoidap.html">Hỏi đáp</a></li>
+           
+          </ul>
+    </nav>
+    <h1>Trang web góp ý</h1>
+    <form id="feedback-form" method="post" action="send.php">
+        <input id="name" type="text" name="name" placeholder="Họ tên" required>
+        <input id="email" type="email" name="email" placeholder="Email" required>
+        <input id="password" type="password" name="password" placeholder="Password" required>
+        <textarea id="content" name="content" placeholder="Nội dung góp ý" required></textarea>
+        <button id="submit" type="submit">Gửi đi</button>
+    </form>
+</body>
+</html>

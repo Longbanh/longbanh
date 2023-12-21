@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .toanmanhinh{
+            width: fit-content;
+            height: fit-content;
+        }
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        header {
+            padding: 30px;
+            background: rgb(68, 0, 255);
+            overflow: hidden;
+        }
+        header img{
+            
+            width: 150px;
+            height: auto;
+            float: center;
+        }
+        header .noidung{
+            float: center;
+            padding-left: 30px;
+        }
+        .search{
+            float: right;
+            line-height: 40px;
+            padding-right: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 20;
+            padding: 20;
+            overflow: hidden;
+            background-color:rgb(0, 183, 255);
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: aqua;
+        }
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .leftcolumn {   
+            float: center;
+            width: 75%;
+        }
+       
+        .fakeimg img{
+            width: 300px;
+            height: auto;
+            padding: 20px;
+        }
+        .fakeimg a{
+            text-decoration: none;
+            color: black;
+            padding: 10px 0;
+        }
+        .fakeimg a:hover{
+            color: cadetblue;
+        }
+       
+        .anh img{
+            float: left;
+            width: 20%;
+            height: 150px;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: chartreuse;
+            box-shadow: 0 0 5px blue;
+        }
+        .anh h3{
+            color: red;
+            text-align: center;
+        }
+        .anh img:hover{
+            box-shadow: 0 0 5px red;
+            background-color: cyan;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .row::after {
+            float: center;
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer{
+            padding-top: 1px;
+            padding-bottom: 1px;
+            line-height:5px;
+            background:lightcyan;
+            text-align: center;
+            font-variant: small-caps;
+            clear: both; 
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+            <img src="image/hong bàng.png" alt="">
+            <div class="noidung">
+                <h2 style="color: white;">NGÀNH GD&ĐT TP HẢI PHÒNG </h2>
+                <h1 style="color: white;">TRƯỜNG THPT Hồng Bàng<h1>
+            </div>
+        </header></center>
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li class="dropdown">
+              <a class="dropbtn" href="gioithieu.html">Giới thiệu</a>
+              <div class="dropdown-content">
+                <a href="cauhoithuongap.html">Câu hỏi thường gặp</a>
+                <a href="cosovatchat.html">Sơ đồ tổ chức</a>
+                <a href="thuvien.html">Thư viện<nav></nav></a>
+              </div>
+            </li>
+            <li><a href="lienhe.html">Liên hệ </a></li>
+            <li><a href="gopy.html">Góp ý</a></li>
+            <li><a href="hoidap.html">Hỏi đáp</a></li>
+           
+          </ul>
+    </nav>
+    <div class="canle">
+        <div class="row">
+            
+    
+            
+                
+                <div class="card">
+                    <center><div class="cochu">Trường THPT Hồng Bàng</div></center>
+                    <div class="fakeimg">
+                        <center><div class="wrap"><img src="image/lich.jpg"></div></center>
+                    <h2><b>Lịch sử nhà Trường</b></h2>
+                    <p>Trường Trung học phổ thông Hồng Bàng (tiền thân là trường Phổ thông trung học kỹ thuật Hồng Bàng) được thành lập theo Quyết định số 918/QĐ-UB ngày 27/08/1988 của UBND thành phố Hải Phòng. Trải qua ba mươi nhăm năm dựng xây và phát triển, vượt mọi khó khăn, đoàn kết, nỗ lực, hoàn thành tốt các nhiệm vụ giáo dục với những thành tích xuất sắc qua từng chặng đường, Trung học phổ thông Hồng Bàng hôm nay đã và đang trở thành một địa chỉ giáo dục đáng tin cậy và luôn được đánh giá cao của nhân dân và học sinh toàn thành phố.</p>
+                    <p>Lịch sử xây dựng và phát triển của nhà trường có thể chia làm các giai đoạn:</p>
+    <p>Giai đoạn 1 (từ năm 1988-1994): Xây dựng nền móng nhà trường</p>
+                     
+                     
+                    <p>Đại hội Đảng toàn quốc lần thứ VI (1986- 1991) là đại hội đưa đất nước bước vào thời kỳ đổi mới toàn diện và hội nhập quốc tế trong bối cảnh đất nước còn đối mặt với muôn vàn khó khăn thử thách; Nghị quyết Đại hội Đảng bộ Thành phố lần thứ IX (nhiệm kỳ 1986-1991) đặt ra chủ trương: bên cạnh việc tập trung thực hiện ba mục tiêu kinh tế lớn, thực hiện giải quyết những vấn đề cấp bách  về đời sống và việc làm trong đó cần quan tâm đầu tư cho các trường học. Để đáp ứng nhu cầu học tập và rèn luyện của con em nhân dân thuộc địa bàn các xã phường ven đô, khu vực ngoại thành Ngành Giáo dục thành phố đã xây dựng quy hoạch đề xuất với Thành phố cho thành lập thêm 04 trường phổ thông trung học trong đó có trường Phổ thông trung học Kỹ thuật Hồng Bàng.
+
+                    </p>
+                    
+    <p>Sở dĩ khi mới thành lập trường mang tên Phổ thông trung học Kỹ thuật Hồng Bàng bởi vì đây là giai đoạn bắt đầu thực hiện chương trình cải cách giáo dục phổ thông hệ 12 năm ở bậc Phổ thông trung học (PTTH) trong đó dành nhiều sự quan tâm tới việc đẩy mạnh kết hợp giữa dạy học văn hóa với thực hành sản xuất cho học sinh trong các nhà trường phổ thông. Từ thành công và kinh nghiệm tổ chức trường Phổ thông trung học An Thái (huyện An Lão) là trường Phổ thông vừa học vừa làm nghề Nông nghiệp, với ý tưởng xây dựng một mô hình trường mới trong nội thành kết hợp giữa dạy chữ và dạy nghề Công nghiệp, lãnh đạo thành phố đã điều chuyển Anh hùng Lao động - Nhà giáo ưu tú Lê Hồng Thúy, nguyên Hiệu trưởng trường PTTH An Thái về làm Hiệu trưởng nhà trường.</p>
+                    <p> Khi mới thành lập quy hoạch nhà trường chưa hoàn chỉnh, cơ sở vật chất vô cùng thiếu thốn: năm học đầu tiên nhà trường thực sự là một công trường với gạch ngói, thùng vũng và cỏ tranh, trang thiết bị giảng dạy và học tập gần như chưa có gì. Năm học đầu tiên trường có 09 lớp với 481 học sinh của hai khối (06 lớp 10 và 03 lớp 11 được tách chuyển về từ trường PTTH Lê Hồng Phong) với đội ngũ 27 CBGV được thành phố điều chuyển từ các trường PTTH khác trong thành phố về cùng một số giáo viên trẻ mới tốt nghiệp đại học sư phạm được phân công công tác ở trường. Có thể kể tên một số thầy cô đã có mặt trường ngay từ những ngày đầu là Thầy Lê Hồng Thuý – Anh hùng lao động, nguyên hiệu trưởng đầu tiên của trường; Thầy Hà Thúc Quả, Thầy Nguyễn Ngọc Thành (Giáo viên môn Toán), Cô Nguyễn Thị Vinh (Giáo viên dạy nghề), Thầy Nguyễn Tường Thụy (môn Tiếng Anh), Bác Nguyễn Văn Lý (nhân viên Văn phòng ) … đây là những nhà giáo tâm huyết, có nhiều kinh nghiệm trong quản lý và giảng dạy ở các nhà trường trong thành phố được sở lựa chọn, điều động về trường đã là những hạt nhân tiên phong trong lộ trình xây dựng và củng cố nhà trường.
+
+                    </p>
+                    <p>   Đối với cấp THPT nhà trường thực hiện giảng dạy theo chương trình chuẩn; bố trí đội ngũ giáo viên bộ môn, giáo viên làm công tác chủ nhiệm lớp phù hợp với đặc điểm từng lớp và đối tượng học sinh để học sinh có điều kiện học tập, rèn luyện đạt kết quả cao trong nhà trường; thực hiện thường xuyên công tác bồi dưỡng học sinh giỏi, học sinh yếu, học sinh trước khi thi tốt nghiệp; tổ chức nhiều hoạt động trải nghiệm, nghiên cứu khoa học, quan tâm việc dạy và định hướng nghề cho học sinh lớp 11,12.</p>
+    <p>Hoạt động ngoại khóa kết hợp với Đoàn thanh niên và Đội TNTP tổ chức nhiều phong trào hoạt động với nội dung, hình thức phong phú, có tính giáo dục, tính cộng đồng cao; thường xuyên tổ chức các phong trào đua học tập, rèn luyện trong các tập thể học sinh, quan tâm tổ chức các hoạt động sinh hoạt tập thể vui tươi, bổ ích, chú trọng giáo dục truyền thống, đạo đức và kỹ năng sống cho học sinh.</p>
+                    <p>Quan tâm thực hiện tốt công tác xã hội hóa giáo dục, tổ chức nhiều hoạt động nhân đạo từ thiện trong và ngoài nhà trường; xây dựng quỹ khuyến học khuyến tài nhằm giúp đở học sinh có hoàn cảnh khó khăn.</p>
+                    <img style = "width : 835px"; src="image/anh1_184202314.png">
+                    <p>Kết quả học tập và rèn luyện của học sinh: hàng năm nhà trường đều có học sinh tham gia thi và đạt giải học sinh giỏi cấp Quận và  thành phố bộ môn văn hóa và TDTT, Mỹ thuật, âm nhạc. Trong nhiều năm học gần đây nhà trường luôn đạt kết quả cao về chất lượng đại trà hai mặt giáo dục; tỷ lệ học sinh đỗ tốt nghiệp, học sinh giỏi, học sinh đỗ cao vào các trường đại học, cao đẳng. Học sinh khối 9 thi vào lớp 10 công lập đạt kết quả cao, năm học 2018-2019  xếp thứ 2 trong toàn thành phố.</p>
+                    <p>Trường luôn có nhiều đổi mới, có giải pháp phù hợp và có hiệu quả trong việc triển khai các kế hoạch,chủ trương của Ngành và của tỉnh, đặc biệt trong quy hoạch nhà trường, xâydựng và giữ gìn môi trường sư phạm xanh - sạch - đẹp - an toàn.</p>
+    <p>Về cơ sở vật chất phục vụ dạy học: Trường có cơ sở vật chất tương đối đầy đủ, khuôn viên sạch đẹp, khang trang. Tổ chức dạy và học 2 buổi/ngày cho học sinh và có tổ chức bán trú với khu bán trú riêng biệt, phòng ngủ trang bị máy điều hoà, có bếp ăn, nhà ăn riêng đạt tiêu chuẩn về chất lượng vệ sinh an toàn thực phẩm. Hiện nhà trường có 27 phòng học chuẩn, mỗi phòng học đều có trang bị 01 tivi; có đủ máy chiếu; 02 phòng học Tin với 40 máy nối mạng LAN và Internet tốc độ cao; 03 phòng thí nghiệm, 01 vườn thực hành, 01 phòng thư viện 3.500 đầu sách với trên 10.000 bản; Nhà đa năng để hoạt động ngoại khóa và học môn thể dục khi cần thiết. 01phòng truyền thống ; 01 sân khấu ngoài trời rộng rãi, có 01 trang web có số lượng người truy cập cao; có hệ thống camera quan sát, hệ thống âm thanh ngoài trời; toàn bộ các phòng học, phòng chức năng của học sinh và khuôn viên nhà trường đều được chiếu sáng bởi hệ thống ánh sáng chuẩn; cây cảnh, cây bóng mát, ghế nghỉ, bảng tin…  đáp ứng tốt cho tổ chức dạy và học, tổ chức các hoạt động sinh hoạt tập thể của thầy và trò nhà trường.</p>
+                    <p>Bằng sự đoàn kết, nỗ lực không ngừng  nghỉ của các thế hệ thầy và trò nhà trường, đến nay nhà trường đã vinh dự được Chính phủ tặng thưởng 01 Bằng khen; Trường đạt chuẩn quốc gia năm 2005-2010. Nhà trường là địa chỉ tin cậy của các thế hệ học sinh và các bậc cha mẹ học sinh an tâm gửi con vào học tập.Hiện nay, Thầy và Trò nhà trường quyết tâm tiếp tục phấn đấu xây dựng nhà trường trở thành một tập thể đoàn kết, thống nhất, đạt chất lượng cao về mọi mặt, đưa nhà trường thực sự là một điểm sáng về giáo dục đào tạo của địa phương và của thành phố.</p> 
+                    </div>  
+                </div>
+                
+          
+        </div>
+    </div>
+
+        
+            
+            
+      
+    <footer>
+        
+        <h5 style="padding-left: 200px;">Trường THPT Hồng Bàng<h5>
+        <h5 style="padding-left: 200px;">Địa chỉ:991 Tôn Đức Thắng - Sở Dầu - Hồng Bàng - Hải Phòng</h5>
+        <h5 style="padding-left: 200px;">Điện thoại:02253857925</h5>
+   </footer>
+</body>
+</html>
